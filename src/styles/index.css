@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "aref ruqaa";
+  src: url("../assets/font/ArefRuqaa-Bold.ttf");
+}
+@font-face {
+  font-family: "kreon";
+  src: url("../assets/font/Kreon-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "lora";
+  src: url("../assets/font/Lora-Italic-VariableFont_wght.ttf");
+}
+:root {
+  --black: #000000ff;
+  --oxford-blue: #14213dff;
+  --orange-web: #fca311ff;
+  --platinum: #6e6e6e;
+  --border: #cecece;
+  --white: #ffffff;
+  --font-h1: "aref ruqaa", sans-serif;
+  --font-h2: "kreon", sans-serif;
+  --font-text: "lora", sans-serif;
+  line-height: 1.5;
+  background-color: var(--white);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body.no-scroll {
+  overflow: hidden;
+  padding-right: 10px;
+}

@@ -1,0 +1,12 @@
+.main {
+  height: 600px;
+  width: 100%;
+}
+
+.bgVideo {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  /* position: fixed; */
+}

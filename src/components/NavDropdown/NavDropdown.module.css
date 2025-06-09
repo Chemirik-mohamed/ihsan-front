@@ -1,0 +1,45 @@
+.navDropdownFull {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100vw;
+  background: white;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  z-index: 1001;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 0.5s;
+  height: 300px;
+}
+
+.content {
+  padding: 32px;
+  text-align: center;
+  background: red;
+  color: white;
+  border-radius: 8px;
+  max-width: 600px;
+}
+
+.content h3 {
+  margin: 0 0 16px 0;
+  font-size: 1.5rem;
+}
+
+.content p {
+  margin: 0;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

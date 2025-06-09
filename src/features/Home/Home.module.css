@@ -1,0 +1,13 @@
+.navLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  color: var(--platinum);
+  border-bottom: 1px solid var(--border);
+}
+li {
+  margin: 26px 32px 5px;
+  font-family: var(--font-text);
+  font-size: 1.2rem;
+}

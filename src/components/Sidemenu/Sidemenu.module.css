@@ -1,0 +1,125 @@
+.sidemenu {
+  width: 260px;
+  position: absolute;
+  top: 120px;
+  left: 0;
+  height: calc(100vh - 120px);
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transform: translateX(-100%);
+  z-index: 2000;
+  background: var(--white);
+  /* box-shadow: 2px 0 12px rgba(0, 0, 0, 0.1); */
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 5px;
+  background: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoIhsan {
+  height: 80px;
+  width: auto;
+  object-fit: contain;
+}
+
+.header h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--dark-gray);
+  text-align: center;
+}
+
+.sidemenuLinks {
+  list-style: none;
+  margin: 0;
+  padding: 8px 0;
+  flex: 1;
+  max-width: 200px;
+}
+
+.sidemenuLink {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 16px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-left: 3px solid transparent;
+  position: relative;
+  min-height: 50px;
+}
+
+.sidemenuLink:hover {
+  background: #f8f9fa;
+  border-left-color: var(--orange-web);
+  transform: translateX(4px);
+}
+
+.sidemenuLink:hover .linkText {
+  color: var(--orange-web);
+  font-weight: 500;
+}
+
+.sidemenuLink:hover .iconLink {
+  color: var(--orange-web);
+  transform: scale(1.1);
+}
+
+.sidemenuLink:hover .chevronIcon {
+  color: var(--orange-web);
+  transform: translateX(4px);
+}
+
+.iconLink {
+  margin-right: 10px;
+  color: var(--dark-gray);
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+.linkText {
+  flex: 1;
+  font-size: 0.95rem;
+  color: var(--dark-gray);
+  transition: all 0.3s ease;
+  font-weight: 400;
+  margin-right: 0;
+  min-width: 0;
+}
+
+.chevronIcon {
+  color: #9ca3af;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+  margin-left: 0;
+}
+
+.footer {
+  padding: 16px 16px;
+  background: #f8f9fa;
+  margin-top: auto;
+}
+
+.footerText {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #6b7280;
+  text-align: center;
+  font-style: italic;
+}
+
+.linkWrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  color: inherit;
+}
